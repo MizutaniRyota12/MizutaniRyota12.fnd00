@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="draw.css">
+</head>
+<header>
+
+    <nav id="navi">
+        <ul>
+            <li><button onclick='optionReset(); drawSet(); drawoption();'>ペン</button></li>
+            <li><button onclick='optionReset(); eraser();eraserOption();'>消しゴム</button></li>
+            <li><button onclick='saveCanvas();resetOption();'>キャンバスの保存</button></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div id="canvas-container">
+        <div id="content">
+            <canvas id="canvas" width="950px" height="500px" style="background-color: whitesmoke;"></canvas><br>
+        </div>
+        <div id="side">
+            <h3>描画設定</h3>
+        </div>
+    </div>
+</body>
+
+<script src="draw.js">
+</script>
+
+
+</html>

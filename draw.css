@@ -1,0 +1,48 @@
+#canvas{
+    height: 500px;
+    width: 950px;
+    border: 3px solid;
+    background-color: whitesmoke;
+}
+
+
+#navi ul {
+    list-style: none;
+
+	display: flex;
+	padding-left: 5%;
+	width: 100%;
+	max-width: 950px;
+}
+#navi ul li {
+	flex: 2 2 auto;
+}
+#navi ul li button {
+	display: block;
+    width: 180px;
+    height: 50px;
+    padding: 15px 15px;
+	color:black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#side {
+    background-color:rgb(59, 226, 134);
+    width:400px;
+    height:506px;
+    text-align:center;
+    margin-left:10px;
+}
+
+#content {
+    width: 950px;
+    height: 500px;
+    text-align:center;
+}
+
+#canvas-container {
+    display:flex;
+}
+
+
